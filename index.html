@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astha Yadav — Portfolio</title>
+    <meta name="description" content="Student portfolio — projects, skills, and what I'm learning right now." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== NAV ===== -->
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="#top" class="logo">AY<span class="dot">.</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="top" class="hero">
+        <div class="wrap">
+            <p class="eyebrow">Portfolio · 2026</p>
+            <h1>Hi, I'm <span class="accent">Astha Yadav</span>.<br>Still figuring it out — that's the point.</h1>
+            <p class="lede">I'm a student building things to learn how they work. This is where I keep the evidence:
+                projects, notes, and skills in progress.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">See my work</a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+            <div class="learning-badge">
+                <span class="learning-label">currently learning</span>
+                <span class="learning-word" id="learningWord">HTML &amp; CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about">
+        <div class="wrap two-col">
+            <div>
+                <p class="section-label">01 — About</p>
+                <h2>A little about me</h2>
+            </div>
+            <div class="about-text">
+                <p>I'm a student studying <em>CSE-AIML</em> at <em>JSS University</em>. I'm interested in <em>web
+                        development, design.</em>, and I like learning by building real things rather than just reading
+                    about them.</p>
+                <p>This site itself is one of those things — my first deployed project. Everything below is real work,
+                    in progress, made public on purpose.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="projects">
+        <div class="wrap">
+            <p class="section-label">02 — Projects</p>
+            <h2>Things I've built</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <p class="project-tag">first project</p>
+                    <h3>Nitisetu</h3>
+                    <p>**NitiSetu** is an AI-powered platform that simplifies government schemes and policies by
+                        providing personalized recommendations, easy-to-understand summaries, and an intelligent chatbot
+                        for user queries. Built using **React.js, FastAPI, Python, LangChain, LLMs, and
+                        PostgreSQL/MongoDB**, it helps bridge the gap between citizens and government services through
+                        AI-driven information retrieval and multilingual support. This project strengthened my skills in
+                        full-stack development, AI integration, and Retrieval-Augmented Generation (RAG).
+                    </p>
+                    <a href="#" class="project-link">
+                </article>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <p class="project-tag">second project</p>
+                        <h3>This portfolio site</h3>
+                        <p>Built with plain HTML, CSS, and JavaScript. Deployed with Git and a static hosting platform.
+                            Replace this with a real project once you've shipped one.</p>
+                        <a href="#" class="project-link">
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-tag">planned</p>
+                        <h3>Smart Stock Management System</h3>
+                        <p>Developing a modern inventory management solution that simplifies stock tracking, billing,
+                            supplier management, and sales reporting through an intuitive dashboard. The system will
+                            leverage AI to predict inventory demand, automate stock alerts, and provide data-driven
+                            insights for efficient business operations.</p>
+                        <a href="#" class="project-link">
+                    </article>
+                </div>
+            </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills">
+        <div class="wrap">
+            <p class="section-label">03 — Skills</p>
+            <h2>What I work with</h2>
+            <ul class="skill-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>Git</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT / FOOTER ===== -->
+    <footer id="contact" class="footer">
+        <div class="wrap footer-inner">
+            <div>
+                <p class="section-label">04 — Contact</p>
+                <h2>Let's talk</h2>
+                <p class="lede">Email me, or find me elsewhere.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:asthaydv0707@gmail.com">asthaydv0707@gmail.com</a>
+                <a href="https://github.com/Astha567" target="_blank" rel="noopener">GitHub-Astha567 </a>
+                <a href="https://www.linkedin.com/in/astha-yadav-28711b3b1/" target="_blank" rel="noopener">LinkedIn-astha-yadav-28711b3b1 </a>
+            </div>
+        </div>
+        <p class="fine-print">Built and deployed by hand. © 2026 Astha Yadav.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
